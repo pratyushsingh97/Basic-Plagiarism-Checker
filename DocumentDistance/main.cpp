@@ -125,7 +125,7 @@ int main() {
     
     //calculate degree of similarity (closer to 0 then exact same, closer to 90 then more different
     double similarity = vectorAngle(countD1, countD2);
-    std::cout << "The similarity between these two documents is:" << percentSimilar(nearbyint(similarity)) << "%. " << std::endl;
+    std::cout << "These documents are " << percentSimilar(nearbyint(similarity)) << "% " << "similar." << std::endl;  
     
     
 }
